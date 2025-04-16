@@ -84,7 +84,7 @@ section{
     margin: auto;
     justify-content: space-around;
     color: black;
-
+    box-shadow: 100px;
 } 
 .card{
     display: flex;
@@ -95,7 +95,7 @@ section{
     text-align: center;
     border: 1px solid black;
     img{
-        width: 40%;
+        width: 100%;
     }
 }
 #formulaire{
@@ -168,5 +168,10 @@ footer{
 }
 #Apropos{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex{
+    background-color: lightgray;
 }
 
