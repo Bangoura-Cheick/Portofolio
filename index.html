@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <h1>Portofolio Cheick BANGOURA</h1>
+            <h2>Portofolio Cheick BANGOURA</h2>
             <ul>
                 <li><a href="#Parcours">Parcours</a></li>
                 <li><a
@@ -21,20 +21,28 @@
             </ul>
         </nav>
     </header>
+    <section id="hero">
+        <h1>Cheick BANGOURA</h1>
+        <h2>Développeur fullstack passionné par le numérique et les nouvelles technologies</h2>
+    </section>
     <section>
-        <h2> À Propos</h2>
+
         <div class="flex">
-            <img src="Photo Cheick.jpg" alt="image photo cheick">
-            <p id="text1">Ancient cuisinier et gestionnaire de stocks. j'ai décidé de me reconvertir dans
-                l'informatique.
-                l'apprentissage de la programmation à travers les cours e-learning m'a permit d'acquérir de solides
-                bases en développement web.
-                Actuellement en préparartion d'une certification en conception et développement web à la toile
-                (programme de l'em lyon business school)
-                Je me à profil mes compétences en HTML CSS JavaScript PHP et Figma .Mon parcours reflète un engagement
-                continue dans l'apprentissage
-                et l'application pratique de mes compétences dans un environnement dynamique.
-            </p>
+            <img src="CHEICKAHMEDTIDIANEBANGOURA(3).jpg" alt="image photo cheick">
+            <div id="Apropos">
+                <h2> À Propos</h2>
+                <p id="text1">Ancient cuisinier et gestionnaire de stocks. j'ai décidé de me reconvertir dans
+                    l'informatique.
+                    l'apprentissage de la programmation à travers les cours e-learning m'a permit d'acquérir de solides
+                    bases en développement web.
+                    Actuellement en préparartion d'une certification en conception et développement web à la toile
+                    (programme de l'em lyon business school)
+                    Je me à profil mes compétences en HTML CSS JavaScript PHP et Figma .Mon parcours reflète un
+                    engagement
+                    continue dans l'apprentissage
+                    et l'application pratique de mes compétences dans un environnement dynamique.
+                </p>
+            </div>
         </div>
     </section>
     <section id="skill">
@@ -95,7 +103,7 @@
                     <img src="logo.linkedin.png" alt="logo linkedin">
 
                 </div>
-                <ul id="tech">
+                <ul class="tech">
                     <li>veille technologique</li>
                     <li>cours e-learning</li>
                     <li>Apprentissage des languages(html css javscript php)</li>
@@ -109,7 +117,7 @@
                     <p>O3/2025-07/2025</p>
                     <img src="IMG_4062.WEBP" alt="img la toile">
                 </div>
-                <ul>
+                <ul class="tech">
                     <li>language du développement front-end(html css javascript)</li>
                     <li>Initiasiation à l'architecture(API et base de données) </li>
                     <li>Integration dynamique de données fichier(Json) </li>
@@ -119,47 +127,53 @@
         </div>
         </div>
         <section id="Projects">
-                <h2>PROJETS</h2>
-            <div class="parent"> 
+            <h2>PROJETS</h2>
+            <div class="parent">
                 <div class="card">
                     <img src="img.nixonblancnoir.jpg" alt="image nixon">
-                        <h3>Montres Nixon</h3>
-                        <a href="https://bangoura-cheick.github.io/ficheproduit/">Nixon</a>
+                    <h3>Montres Nixon</h3>
+                    <a href="https://bangoura-cheick.github.io/ficheproduit/">Nixon</a>
                 </div>
                 <div class="card">
                     <img src="BougieChandel.jpg" alt="image bougue candle">
-                        <h3>Bougies lueurs</h3>
-                        <a href="https://bangoura-cheick.github.io/renduHTMLCSS/">Bougies</a>
-                </div> 
-            </div>            
+                    <h3>Bougies lueurs</h3>
+                    <a href="https://bangoura-cheick.github.io/renduHTMLCSS/">Bougies</a>
+                </div>
+            </div>
         </section>
         <section>
-        <form action="" id="contact">
-            <div class="form">
             <h2>CONTACT</h2>
-            <div>
-               <label for="name">NOM</label>
-                     <input type="text" id="name" placeholder="">
-                <label for="Prenom">Prénom</label>
-                    <input type="text" id="prenom" placeholder="">
-            </div>
-            <div>
-                <label for="">Teléphone</label>
-                <input type="text" id="telephone" placeholder="">
-                <label for="">Email</label>
-                <input type="text" id="email" placeholder="">
-            </div>
-            <div id="formmessage">
-                <label for="message">Message</label>
-                <textarea name="text" id="text"></textarea> 
-            </div>
-            <button>Envoyer</button>
-             </div>
-        </form>
-    </section>
+            <form action="" id="contact">
+                <div class="form">
+                    <div class="input">
+
+                        <label for="name">NOM</label>
+                        <input type="text" id="name" placeholder="">
+                        <label for="Prenom">Prénom</label>
+                        <input type="text" id="prenom" placeholder="">
+
+                    </div>
+                    <div class="input">
+
+                        <label for="">Teléphone</label>
+                        <input type="text" id="telephone" placeholder="">
+                        <label for="">Email</label>
+                        <input type="text" id="email" placeholder="">
+
+                    </div>
+                </div>
+                <div class="input" id="formmessage">
+                    <label for="message">Message</label>
+                    <textarea name="text" id="text"></textarea>
+                </div>
+                <button>Envoyer</button>
+
+            </form>
+        </section>
 </body>
 <footer>
     <p>Cheick Bangoura</p>
     <P>Tous droits reservés</P>
 </footer>
+
 </html>
