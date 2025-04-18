@@ -94,6 +94,7 @@ section{
     justify-content: center;
     text-align: center;
     border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px black;
     img{
         width: 100%;
     }
