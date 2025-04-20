@@ -156,10 +156,6 @@ footer{
         width: 100px;
     }
 }
-
-@media screen {
-    
-}
 .form{
     display: flex;
     justify-content: space-around;
