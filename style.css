@@ -158,8 +158,16 @@ footer{
     display: flex;
     justify-content:center;
     align-items: center;
-    height: 200px;
+    height: 200px;     
 }
+#liencv{
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
 input{
     display: flex;
 }
