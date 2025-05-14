@@ -1,166 +1,225 @@
-*{ 
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     padding: 20px;
     background-color: darkslategray;
     position: fixed;
     width: 97%;
 }
-nav{
-  display: flex;
-  justify-content: space-between; 
-  color: beige;
-  align-items:center;
-  
-}
-ul{
+
+nav {
     display: flex;
-    justify-content:space-around;
-    gap: 30px;
-    a{
-        color: aliceblue;
-        text-decoration: none;
-      }
+    justify-content: space-between;
+    color: beige;
+    align-items: center;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+
+        li {
+            list-style: none;
+
+
+            a {
+                color: aliceblue;
+                text-decoration: none;
+            }
+        }
+    }
 }
-li{
-    list-style: none;
+
+a:hover {
+    color: rgb(74, 211, 74);
 }
-.flex{
+
+.flex {
     display: flex;
     text-align: center;
     justify-content: center;
-    
-    color: rgb(16, 26, 26);;
-    img{
+
+    color: rgb(16, 26, 26);
+    ;
+
+    img {
         width: 50%;
     }
-    h2{
+
+    h2 {
         text-align: center;
     }
 }
-#text1{
+
+#text1 {
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
 }
-h2{
-   color: black;
-   text-align: center;
-} 
 
-.dev{
-   display: flex;
-   
+h2 {
+    color: #000000;
+    text-align: center;
+}
+
+h3 {
+    color: #eaeaea87;
+    text-align: center;
+}
+
+.dev {
+    display: flex;
+
     flex-wrap: wrap;
 
-  justify-content: space-evenly;
+    justify-content: space-evenly;
 }
-section{
+
+section {
     margin-bottom: 5%;
     text-align: center;
-    h2{
+
+    h2 {
         margin-bottom: 2%;
     }
 }
 
-.imgcomp{
+.imgcomp {
     text-align: center;
-    img{
+
+    img {
         width: 100px;
     }
 }
 
-.parent{
+.parent {
     background-color: darkslategray;
     display: flex;
     margin: auto;
     justify-content: space-around;
-    color: black;
     box-shadow: 100px;
-} 
-.card{
+    color: black;
+}
+
+.card {
     display: flex;
     flex-direction: column;
     width: 30%;
     border: 1px solid black;
     justify-content: center;
     text-align: center;
-    border: 1px solid black;
     box-shadow: 2px 2px 2px 2px black;
-    img{
-        width: 100%;
+
+    img {
+        width: 80%;
+        align-self: center;
+        margin: 30px;
     }
 }
-#formulaire{
+.booton{
+    width: 30%;
+    align-self: center;
+    padding: 10px;
+    background: black;
+    border-radius: 10px;
+    margin: 10px;
+    a{
+    text-decoration: none;
+    color: #ffffff;
+
+    }
+}
+#formulaire {
     border: 1px solid black;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-#formmessage{
-   margin: auto;
-   justify-content: center;
-   align-items: center;
-    textarea{
+
+#formmessage {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+    textarea {
         height: 100px;
         width: 6OOpx;
     }
-   }
-#skill{
-color: white;
 }
-footer{
+
+#skill {
+    color: white;
+}
+
+footer {
     background-color: black;
     color: white;
     width: 100%;
+    height: 150px;
+    float: inline-end;
+    flex-direction: column;
+    display: flex;
+    padding-block-start: 50px;
+
+    
+    section{
+        align-self: center;
+    place-items: flex-start;
+    align-content: center;
+    font-size: 1.2rem;
+    
+}
 }
 
-.projets{
+.projets {
     display: flex;
     justify-content: space-around;
+
+    h2 {
+        color: black;
+    }
 }
-#contact{
+
+#contact {
     display: flex;
-    background-color:
     flex-direction: row;
     align-items: center;
     margin: auto;
     width: 100%;
-    button{
+
+    button {
         background-color: blue;
         color: white;
         padding: 10px;
         border-radius: 5px;
     }
 }
-.tech{
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    text-align: center;
-}
 
-#hero{
+#hero {
     background-color: rgb(95, 156, 156);
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    h1{
+
+    h1 {
         width: 100px;
     }
 }
-.form{
+
+.form {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    height: 200px;     
+    height: 200px;
 }
-#liencv{
+
+#liencv {
     background-color: black;
     color: white;
     padding: 12px 24px;
@@ -168,18 +227,21 @@ footer{
     text-decoration: none;
 }
 
-input{
+input {
     display: flex;
 }
-#Apropos{
+
+#Apropos {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.flex{
+
+.flex {
     background-color: lightgray;
 }
-#contact{
+
+#contact {
     background-color: darkslategray;
     padding: 10px;
     display: flex;
@@ -188,12 +250,14 @@ input{
     width: 45%;
     gap: 4px;
     justify-content: center;
-   align-items: center;
-  
-    textarea{
+    align-items: center;
+
+    textarea {
         width: 80%;
-        resize: none;    }
-    button{
+        resize: none;
+    }
+
+    button {
         justify-content: center;
         text-align: center;
         background-color: black;
@@ -202,14 +266,12 @@ input{
         height: 40px;
         width: 90px;
     }
-  
+
 }
-#piedepage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#cv{
+
+
+
+#cv {
     justify-content: center;
     text-align: center;
     background-color: black;
